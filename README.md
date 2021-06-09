@@ -1,2 +1,5 @@
-# DIO-Curso
-Curso de C# - DIO
+# DIO-Curso .NET
+Curso de C# - DIO 
+
+ - Iniciando com .net
+ - Criando uma aplicação console
