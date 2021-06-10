@@ -47,3 +47,7 @@ Curso de C# - DIO
 ```
 
  - Como aplicar classes e objetos em projetos 
+ - O que são Structs
+   - Assim como as classes, as _structs_ são estruturas de dados que podem conter membros de dados e membros de ação, mas, diferentemente das classes, as _structs_ são tipos de valor e não requerem alocação de **heap** .
+   Uma variável de um tipo de _struct_ armazena diretamente os dados da estrutura, quando uma variável de um tipo classe armazena uma referencia a um objeto alocado na memória.
+ - Entendendo a função de interfaces e enums
