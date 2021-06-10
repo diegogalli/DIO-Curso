@@ -81,3 +81,18 @@ Curso de C# - DIO
    Uma interface pode conter métodos, propriedades, eventos e indexadores.
    Uma interface não fornece implementações dos membros que define - apenas suas "assinaturas".
    As interfaces podem empregar herança múltipla.
+
+   ## Exemplo de Interface
+   ``` c#
+   interface IControl
+   {
+   void Paint();
+   }
+   interface IListBox
+   {
+   void SetText (string text);
+   }
+   interface IComboBox: ITextBox, IListBox {}
+   ```
+
+
