@@ -15,4 +15,18 @@ Curso de C# - DIO
    - Tipos Arrays: int[], int[,], etc...
    - interface, delegate 
  - Utilizando instruções em programas
+   - Declaração de variaveis e constantes locais
+   - if
+   - switch
+   - while
+   - do
+   - for
+   - foreach
+ - Instruções auxiliares
+   - break  
+   - continue  
+   - return
+   - throw
+   - try .. catch .. finally
+   - using  
  - Exemplificando o conteudo
