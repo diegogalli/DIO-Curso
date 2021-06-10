@@ -94,5 +94,8 @@ Curso de C# - DIO
    }
    interface IComboBox: ITextBox, IListBox {}
    ```
+   - Enums: Um _enum_ é um tipo de valor distinto com um conjunto de constantes nomeadas.
+   Você define enumerações quando precisa definir um tipo que pode ter um conjunto de valores discretos.
+   Eles usam um dos tipos de valor integral como armazenamento subjacente. Eles fornecem siginficado semântico aos valores discretos. 
 
 
