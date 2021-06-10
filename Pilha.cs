@@ -16,7 +16,7 @@ namespace DIO
         {
             if (primeiro == null)
             {
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("A Pilha está vazia");
             }
 
             object resultado = primeiro.item;

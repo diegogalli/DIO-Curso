@@ -13,6 +13,7 @@ namespace DIO
             Console.WriteLine(s.Desempilha());
             Console.WriteLine(s.Desempilha());
             Console.WriteLine(s.Desempilha());
+            Console.WriteLine(s.Desempilha());
         }
     }
 }
