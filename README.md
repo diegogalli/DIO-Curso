@@ -43,5 +43,4 @@ Curso de C# - DIO
        this.x = x;
        this.y = y;
      } 
- } ```   
- - Como aplicar classes e objetos em projetos
+ }  
