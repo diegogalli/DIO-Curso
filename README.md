@@ -35,7 +35,7 @@ Curso de C# - DIO
    - Objetos: São instancias de uma classe
  ## Exemplo de Classes e Objetos
 
- ```
+ ```c#
   public class Ponto
  {
      public int x, y;
@@ -56,7 +56,7 @@ Curso de C# - DIO
 
   ## Exemplo de Structs
 
- ``` 
+ ``` c#
  //Estrutura que será transformada em Struct
  public static void Main()
  {
@@ -77,3 +77,7 @@ Curso de C# - DIO
  }
 ```  
  - Entendendo a função de interfaces e enums
+   - Interfaces: Uma interface define um contrato que pode ser implementado por **classes** e **structs**
+   Uma interface pode conter métodos, propriedades, eventos e indexadores.
+   Uma interface não fornece implementações dos membros que define - apenas suas "assinaturas".
+   As interfaces podem empregar herança múltipla.
