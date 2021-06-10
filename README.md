@@ -98,4 +98,27 @@ Curso de C# - DIO
    Você define enumerações quando precisa definir um tipo que pode ter um conjunto de valores discretos.
    Eles usam um dos tipos de valor integral como armazenamento subjacente. Eles fornecem siginficado semântico aos valores discretos. 
 
+   ## Exemplo de Enum
+   ``` c#
+   enum cor
+   {
+      Vermelho,
+      Verde,
+      Azul
+   }
+   static void EscreverCor (Cor cor)
+   {
+      switch (cor)
+      {
+        case Cor.Vermelho:
+            Console.WriteLine("Vermelho");
+            break;
+        case Color.Verde:
+            Console.WriteLine("Verde");
+            break;   
+      }
+   }
+   ```
+   
+
 
