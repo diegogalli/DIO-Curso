@@ -52,4 +52,15 @@ Curso de C# - DIO
    Uma variável de um tipo de _struct_ armazena diretamente os dados da estrutura, quando uma variável de um tipo classe armazena uma referencia a um objeto alocado na memória.
    **_Structs_** não aceitam herança determinada pelo desenvolvedor
    São uteis para pequenas estruturas de dados que possuem semantica de valor: números complexos, pontos em um sistema de coordenadas ou pares de chave-valor em um dificionario são bons exemplos de utilização;
+
+  ## Exemplo de Structs
+
+ ``` 
+ public static void Main()
+ {
+     Ponto[] pontos = new Ponto[100];
+     for (int i = 0; i < 100; i++)
+        pontos[i] = new Ponto(i, i);
+ } 
+```  
  - Entendendo a função de interfaces e enums
