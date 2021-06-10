@@ -35,7 +35,8 @@ Curso de C# - DIO
    - Objetos: São instancias de uma classe
  ## Exemplo de Classes e Objetos
 
- ``` public class Ponto
+ ```
+  public class Ponto
  {
      public int x, y;
      public Ponto (int x, int y)
@@ -56,11 +57,23 @@ Curso de C# - DIO
   ## Exemplo de Structs
 
  ``` 
+ //Estrutura que será transformada em Struct
  public static void Main()
  {
      Ponto[] pontos = new Ponto[100];
      for (int i = 0; i < 100; i++)
         pontos[i] = new Ponto(i, i);
  } 
+
+ //Struct
+ public struct Ponto
+ {
+   public int x, y;
+   public Ponto (int x, int y)
+   {
+     this.x = x;
+     this.y = y;
+   }
+ }
 ```  
  - Entendendo a função de interfaces e enums
