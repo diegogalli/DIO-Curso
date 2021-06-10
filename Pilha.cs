@@ -1,42 +1,43 @@
-using System;
+// Comentado para prosseguir com o curso
+// using System;
 
-namespace DIO
-{
-    public class Pilha
-    {
-        Posicao primeiro;
+// namespace DIO
+// {
+//     public class Pilha
+//     {
+//         Posicao primeiro;
 
-        public void Empilha(object item)
-        {
-            primeiro = new Posicao(primeiro,item);
+//         public void Empilha(object item)
+//         {
+//             primeiro = new Posicao(primeiro,item);
             
-        }
+//         }
 
-        public object Desempilha()
-        {
-            if (primeiro == null)
-            {
-                throw new InvalidOperationException("A Pilha está vazia");
-            }
+//         public object Desempilha()
+//         {
+//             if (primeiro == null)
+//             {
+//                 throw new InvalidOperationException("A Pilha está vazia");
+//             }
 
-            object resultado = primeiro.item;
-            primeiro = primeiro.proximo;
-            return resultado;
-        }
+//             object resultado = primeiro.item;
+//             primeiro = primeiro.proximo;
+//             return resultado;
+//         }
 
-        class Posicao
-        {
-            public Posicao proximo;
+//         class Posicao
+//         {
+//             public Posicao proximo;
 
-            public object item;
+//             public object item;
 
-            public Posicao(Posicao proximo, object item)
-            {
-                this.proximo = proximo;
-                this.item = item;
-            }
-        }
+//             public Posicao(Posicao proximo, object item)
+//             {
+//                 this.proximo = proximo;
+//                 this.item = item;
+//             }
+//         }
 
-    }
+//     }
 
-}
+// }
