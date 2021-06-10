@@ -33,19 +33,19 @@ Curso de C# - DIO
  - O Que são Classes e Objetos em C#
    - Classe: É uma estrutura de dados que combina estado (campos) e ações (métodos)
    - Objetos: São instancias de uma classe
- ## Exemplo de Classes e Objetos
+   ## Exemplo de Classes e Objetos
 
- ```c#
-  public class Ponto
- {
+   ```c#
+   public class Ponto
+   {
      public int x, y;
      public Ponto (int x, int y)
      {
        this.x = x;
        this.y = y;
      } 
- } 
-```
+   } 
+   ```
 
  - Como aplicar classes e objetos em projetos 
  - O que são Structs
@@ -54,28 +54,28 @@ Curso de C# - DIO
    **_Structs_** não aceitam herança determinada pelo desenvolvedor
    São uteis para pequenas estruturas de dados que possuem semantica de valor: números complexos, pontos em um sistema de coordenadas ou pares de chave-valor em um dificionario são bons exemplos de utilização;
 
-  ## Exemplo de Structs
+   ## Exemplo de Structs
 
- ``` c#
- //Estrutura que será transformada em Struct
- public static void Main()
- {
+   ``` c#
+   //Estrutura que será transformada em Struct
+   public static void Main()
+   {
      Ponto[] pontos = new Ponto[100];
-     for (int i = 0; i < 100; i++)
-        pontos[i] = new Ponto(i, i);
- } 
+      for (int i = 0; i < 100; i++)
+         pontos[i] = new Ponto(i, i);
+   } 
 
- //Struct
- public struct Ponto
- {
+   //Struct
+   public struct Ponto
+   {
    public int x, y;
    public Ponto (int x, int y)
-   {
-     this.x = x;
-     this.y = y;
+    {
+      this.x = x;
+      this.y = y;
+    }
    }
- }
-```  
+   ```  
  - Entendendo a função de interfaces e enums
    - Interfaces: Uma interface define um contrato que pode ser implementado por **classes** e **structs**
    Uma interface pode conter métodos, propriedades, eventos e indexadores.
