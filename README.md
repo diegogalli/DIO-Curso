@@ -30,3 +30,18 @@ Curso de C# - DIO
    - try .. catch .. finally
    - using  
  - Exemplificando o conteudo
+ - O Que são Classes e Objetos em C#
+   - Classe: É uma estrutura de dados que combina estado (campos) e ações (métodos)
+   - Objetos: São instancias de uma classe
+ ## Exemplo de Classes e Objetos
+
+ ``` public class Ponto
+ {
+     public int x, y;
+     public Ponto (int x, int y)
+     {
+       this.x = x;
+       this.y = y;
+     } 
+ } ```   
+ - Como aplicar classes e objetos em projetos
